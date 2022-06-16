@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="header">My Website</div>
+        <div class="menu">
+            <h2>Navigation</h2>
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+        </div>
+        <div class="mainContent">
+            <h1>Home page</h1>
+            <p>Lorem ipsum dolor sit amet. Sed nihil alias et suscipit obcaecati aut quae odit ut voluptatem optio qui
+                modi voluptatum non quisquam molestias et cumque iusto? Eum quidem ipsam quo repellendus harum aut omnis
+                reprehenderit rem quia voluptatum qui iste distinctio. Et voluptatem consequatur non ratione incidunt ea
+                blanditiis consequatur et labore omnis et iusto voluptatem ut explicabo repudiandae. Est laboriosam
+                cupiditate sed earum itaque sit molestiae voluptatem ex ipsum et dolorum dolore.</p>
+
+                <p>Aut molestiae expedita ad reprehenderit internos quo minima saepe. Est soluta esse est fugit modi ad
+                nesciunt quos. Et fuga exercitationem hic consectetur laboriosam et minima enim ex omnis sunt nam quidem
+                nulla quo voluptatibus necessitatibus. Quo quas accusantium ex beatae labore cum quisquam galisum et
+                nobis illo!</p>
+
+                <p>Non omnis quasi qui velit quod eum consequuntur sunt sit odio commodi est provident magni. Est alias
+                quas et maxime reprehenderit id internos dicta eos recusandae doloribus est voluptates quam.</p>
+            
+        </div>
+        <div class="footer">Copyright &copy; 2014 Jake Wright</div>
+    </div>
+</body>
+
+</html>

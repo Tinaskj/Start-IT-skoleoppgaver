@@ -1,0 +1,60 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.page {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 40px 10fr 20px;
+    grid-template-areas: "header header"
+                         "menu mainContent"
+                         "footer footer";
+}
+
+.header {
+    color: white;
+    background-color: lightskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    grid-area: header;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.mainContent {
+    grid-area: mainContent;
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.menu p {
+    color: red;
+}
+.footer {
+    color: white;
+    background-color: gray;
+    text-align: right;
+    grid-area: footer;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width 600px) {
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 20px 1fr 4fr 20px;
+    grid-template-areas: "header"
+                         "menu"
+                         "mainContent"
+                         "footer";
+}
